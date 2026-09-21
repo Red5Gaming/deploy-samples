@@ -1,0 +1,12 @@
+{
+  "name": "astro-static",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "astro build",
+    "dev": "astro dev"
+  },
+  "dependencies": {
+    "astro": "^5.15.0"
+  }
+}

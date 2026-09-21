@@ -1,0 +1,6 @@
+{
+  "name": "worker-cron",
+  "private": true,
+  "type": "module",
+  "scripts": { "start": "node web.js", "worker": "node worker.js", "cron": "node cron.js" }
+}
