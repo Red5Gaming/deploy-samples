@@ -12,6 +12,7 @@ environment variables. Handy for testing build pipelines, buildpacks and PaaS se
 | `go/` | Go net/http | auto-detected (Go) |
 | `dockerfile/` | Plain Dockerfile (busybox httpd) | `docker build` |
 | `astro-static/` | Astro static site | auto-detected (Node, static output in `dist/`) |
+| `vite-spa/` | Vite single-page app with client-side routes (`/`, `/about`) | auto-detected (Node, static output in `dist/`); the server must serve `index.html` for unknown paths |
 | `monorepo/` | pnpm workspace with `apps/web` (static) and `apps/api` (Node) | build each app from its directory |
 | `worker-cron/` | Node app with a web process, a worker loop and a cron script | `node web.js`, `node worker.js`, `node cron.js` |
 
